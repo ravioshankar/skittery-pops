@@ -11,7 +11,9 @@ export const handler: Handlers<Data> = {
   GET(req, ctx) {
     const url = new URL(req.url);
     const query = url.searchParams.get("q") || "";
-    const results = NAMES.filter((name) => name.toLowerCase().includes(query.toLowerCase()));
+    const results = NAMES.filter((name) =>
+      name.toLowerCase().includes(query.toLowerCase())
+    );
     return ctx.render({ results, query });
   },
 };

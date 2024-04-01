@@ -18,7 +18,7 @@ export function ServerCodePage(
 
           <p class="p-4">
             <Button>
-            <a href="/" class="hover:highlight">Back to the Homepage</a>
+              <a href="/" class="hover:highlight">Back to the Homepage</a>
             </Button>
           </p>
         </div>

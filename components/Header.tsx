@@ -5,8 +5,7 @@ type Props = {
   active: string;
 };
 
-export function Header( {active} : Props) {
-
+export function Header({ active }: Props) {
   const menus = [
     { name: "Home", href: "/" },
     { name: "About me", href: "/about" },
@@ -15,11 +14,10 @@ export function Header( {active} : Props) {
 
   return (
     <div class="bg-white w-full max-w-screen-lg py-6 px-8 flex flex-col md:flex-row gap-4">
-
       <a href="/" class="flex items-center flex-1">
         <LemonIcon aria-hidden="true" />
         <div class="text-2xl ml-1 font-bold">
-        {sitewide.title}
+          {sitewide.title}
         </div>
       </a>
 
@@ -39,7 +37,6 @@ export function Header( {active} : Props) {
     </div>
   );
 }
-
 
 // export function Header() {
 //   return (

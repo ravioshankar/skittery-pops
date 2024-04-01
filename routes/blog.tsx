@@ -1,4 +1,3 @@
-
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { listPosts, Post } from "../utils/posts.ts";
 import { State } from "../utils/state.ts";
@@ -21,14 +20,14 @@ export default function Blog(props: PageProps<Data>) {
   const { posts } = props.data;
   return (
     <>
-     <BlogHomeHeader />
-     <main>
-      <Container>
-        <ul class="mt-16">
-          {posts.map((post) => <PostPreview post={post} />)}
-        </ul>
-      </Container>
-     </main>
+      <BlogHomeHeader />
+      <main>
+        <Container>
+          <ul class="mt-16">
+            {posts.map((post) => <PostPreview post={post} />)}
+          </ul>
+        </Container>
+      </main>
     </>
   );
 }

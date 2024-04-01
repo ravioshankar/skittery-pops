@@ -2,6 +2,7 @@
 title: bottom of stare case
 published_at: 2023-03-31
 ---
+
 ```
 /**
  * your are at bottom of staircase with n stairs, you can jum 1,2 or 3 stairs at a time. 
@@ -22,5 +23,4 @@ function howManyWays(n: number): number {
 }
 
 console.log(howManyWays(3));
-
 ```
