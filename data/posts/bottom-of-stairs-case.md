@@ -1,6 +1,7 @@
 ---
-title: bottom of stare case
+title: Bottom of stare case
 published_at: 2023-03-31
+tags: easy
 ---
 
 ```
