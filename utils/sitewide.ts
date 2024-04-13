@@ -1,5 +1,6 @@
 export const sitewide = {
-  title: "Skittery",
+  title: "Skitter",
+  copyrightName: "Skitter"
 };
 
 export const settings = {
